@@ -1,0 +1,11 @@
+<h2>Candidate Profile</h2>
+<pre>
+[%# Dumper.dump(candidate) %]
+</pre>
+
+<table>
+<tr><td> First:  </td><td>[% candidate.first_name %] </td></tr>
+<tr><td> Last:   </td><td>[% candidate.last_name %]  </td></tr>
+<tr><td> email:  </td><td>[% candidate.email %]      </td></tr>
+<tr><td> status: </td><td>[% candidate.status %]     </td></tr>
+</table>

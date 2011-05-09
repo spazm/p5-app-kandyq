@@ -33,4 +33,4 @@ session_dir: /tmp/kandyq-sessions
 plugins:
   DBIC:
     data:
-      dsn:  "dbi:SQLite:dbname=./data.db"
+      dsn:  "dbi:SQLite:dbname=data.db"
