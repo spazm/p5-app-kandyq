@@ -27,3 +27,10 @@ engines:
     start_tag: '[%'
     end_tag:   '%]'
 
+session: YAML
+session_dir: /tmp/kandyq-sessions
+
+plugins:
+  DBIC:
+    data:
+      dsn:  "dbi:SQLite:dbname=./data.db"
